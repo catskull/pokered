@@ -1,15 +1,15 @@
 IF DEF(_RED)
 DefaultNamesPlayer:
 	db   "NEW NAME"
-	next "RED"
-	next "ASH"
-	next "JACK"
+	next "DAVE"
+	next "URMOM"
+	next "BALLS"
 	db   "@"
 
 DefaultNamesRival:
 	db   "NEW NAME"
-	next "BLUE"
-	next "GARY"
+	next "DAVE2"
+	next "DAVE3"
 	next "JOHN"
 	db   "@"
 ENDC

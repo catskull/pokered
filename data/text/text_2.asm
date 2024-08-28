@@ -1694,19 +1694,19 @@ _LinkCanceledText::
 	done
 
 _OakSpeechText1::
-	text "Hello there!"
-	line "Welcome to the"
-	cont "world of #MON!"
+	text "sup g? u finna"
+	line "catch som mon?"
+	cont "I feel u."
 
-	para "My name is OAK!"
-	line "People call me"
-	cont "the #MON PROF!"
+	para "This game is"
+	line "called SONIC"
+	cont "and I made it."
 	prompt
 
 _OakSpeechText2A::
-	text "This world is"
-	line "inhabited by"
-	cont "creatures called"
+	text "This is the"
+	line "best game ever"
+	cont "made."
 	cont "#MON!@"
 	text_end
 
