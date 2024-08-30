@@ -115,7 +115,7 @@ DisplayTitleScreen:
 	jr .next
 
 .tileScreenCopyrightTiles
-	db $41,$42,$43,$42,$44,$42,$45,$46,$47,$48,$49,$4A,$4B,$4C,$4D,$4E ; ©'95.'96.'98 GAME FREAK inc.
+	db $41,$42,$43,$44,$43,$45,$43,$46,$47,$48,$49,$4A,$4B,$4C,$4D,$4E ; ©'95.'96.'98 GAME FREAK inc.
 
 .next
 	call SaveScreenTilesToBuffer2
@@ -387,9 +387,9 @@ LoadCopyrightTiles:
 	jp PlaceString
 
 CopyrightTextString:
-	db   $60,$61,$62,$61,$63,$61,$64,$7F,$65,$66,$67,$68,$69,$6A             ; ©'95.'96.'98 Nintendo
-	next $60,$61,$62,$61,$63,$61,$64,$7F,$6B,$6C,$6D,$6E,$6F,$70,$71,$72     ; ©'95.'96.'98 Creatures inc.
-	next $60,$61,$62,$61,$63,$61,$64,$7F,$73,$74,$75,$76,$77,$78,$79,$7A,$7B ; ©'95.'96.'98 GAME FREAK inc.
+	db   $60,$61,$62,$63,$62,$64,$62,$70,$65,$66,$67,$67,$68,$69,$65 ; skibidi rizzler
+	next $60,$61,$62,$63,$62,$64,$62,$71,$6B,$6C,$6D,$6E,$6F,$6B,$6B ; skibidi TOILETT
+	next $7F,$7F,$7F,$73,$74,$75,$76,$77,$78,$79,$7A,$7B             ; catskull2024
 	db   "@"
 
 INCLUDE "data/pokemon/title_mons.asm"

@@ -1707,68 +1707,68 @@ _OakSpeechText2A::
 	text "This is the"
 	line "best game ever"
 	cont "made."
-	cont "#MON!@"
+	cont "(farts)@"
 	text_end
 
 _OakSpeechText2B::
 	text_start
 
-	para "For some people,"
-	line "#MON are"
-	cont "pets. Others use"
-	cont "them for fights."
+	para "They say, the"
+	line "world's your"
+	cont "oyster. Well,"
+	cont "oysters"
+	cont "ain't for me."
 
-	para "Myself..."
+	para "come closer..."
 
-	para "I study #MON"
-	line "as a profession."
+	para "(whispers)"
+	line "I love you."
 	prompt
 
 _IntroducePlayerText::
-	text "First, what is"
-	line "your name?"
+	text "Welcome to"
+	line "America. Name?"
 	prompt
 
 _IntroduceRivalText::
-	text "This is my grand-"
+	text "This is your"
 	line "son. He's been"
-	cont "your rival since"
+	cont "your son since"
 	cont "you were a baby."
 
-	para "...Erm, what is"
-	line "his name again?"
+	para "I'm bad with"
+	line "names."
 	prompt
 
 _OakSpeechText3::
-	text "<PLAYER>!"
+	text "Well, <PLAYER>,"
 
-	para "Your very own"
-	line "#MON legend is"
-	cont "about to unfold!"
+	para "I guess this is"
+	line "it. We've all"
+	cont "been waiting!!!"
 
-	para "A world of dreams"
-	line "and adventures"
-	cont "with #MON"
-	cont "awaits! Let's go!"
+	para "Your mom is hot"
+	line "by the way."
+	cont "..."
+	cont "Let's go!"
 	done
 
 _DoYouWantToNicknameText::
-	text "Do you want to"
-	line "give a nickname"
-	cont "to @"
+	text "Name the beast?"
 	text_ram wNameBuffer
 	text "?"
 	done
 
 _YourNameIsText::
-	text "Right! So your"
-	line "name is <PLAYER>!"
+	text "<PLAYER>?? what"
+	line "kind of name is"
+	cont "that?"
 	prompt
 
 _HisNameIsText::
-	text "That's right! I"
-	line "remember now! His"
-	cont "name is <RIVAL>!"
+	text "I'll never"
+	line "forget where I"
+	cont "was on 9/11."
 	prompt
 
 _WillBeTradedText::
